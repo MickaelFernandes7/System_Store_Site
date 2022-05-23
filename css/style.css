@@ -149,29 +149,7 @@
                 background-color: #e5e5e5;
                 transition: 0.50s;
             }
-
-            @media (min-width: 360px) and (max-width:500px){
-                #btn-box {display: flex;
-                    flex-direction: column;
-                    justify-content: space-between;}
-                    
-                    .contatos-title{margin-right: 2.8%;}
-    
-                    .contato-btn {
-                            width: 160px;
-                            margin-left: 22%;
-                            margin-top: 3%;
-                    }
-            }
-
-            @media (max-width: 575.98px){
-                .contato-btn {
-                    width: 180px;
-                    margin-left: 30%;
-                    margin-top: 3%;
-                }
-            }  
-
+            
             @media(max-width:1680px){
                 footer {
                     background-color: #f55145;
