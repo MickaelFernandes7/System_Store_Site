@@ -150,6 +150,18 @@
                 transition: 0.50s;
             }
 
+            @media (max-width: 575.98px){
+                .contato-btn {
+                    margin-left: 26.5%;
+                    margin-top: 3%;}
+            }
+
+            @media (min-width: 576px) and (max-width: 767.98px) {
+                    .contato-btn {
+                        margin-left: 31%;
+                        margin-top: 3%;}
+            }
+
             @media(max-width:1680px){
                 footer {
                     background-color: #f55145;
