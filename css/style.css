@@ -67,7 +67,7 @@
             
             .caixa2 {
                 background-color: #f55145;
-                height: 160px;
+                height: 170px;
             }
             
             .contatos-title {
@@ -150,17 +150,27 @@
                 transition: 0.50s;
             }
 
-            @media (max-width: 575.98px){
-                .contato-btn {
-                    margin-left: 26.5%;
-                    margin-top: 3%;}
+            @media (min-width: 360px) and (max-width:500px){
+                #btn-box {display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;}
+                    
+                    .contatos-title{margin-right: 2.8%;}
+    
+                    .contato-btn {
+                            width: 160px;
+                            margin-left: 22%;
+                            margin-top: 3%;
+                    }
             }
 
-            @media (min-width: 576px) and (max-width: 767.98px) {
-                    .contato-btn {
-                        margin-left: 31%;
-                        margin-top: 3%;}
-            }
+            @media (max-width: 575.98px){
+                .contato-btn {
+                    width: 180px;
+                    margin-left: 30%;
+                    margin-top: 3%;
+                }
+            }  
 
             @media(max-width:1680px){
                 footer {
