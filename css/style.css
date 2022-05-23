@@ -149,3 +149,10 @@
                 background-color: #e5e5e5;
                 transition: 0.50s;
             }
+
+            @media(max-width:1680px){
+                footer {
+                    background-color: #f55145;
+                    height: 100%;
+                }
+            }
