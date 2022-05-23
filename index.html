@@ -39,6 +39,8 @@
                         <a href="#projeto" class="nav-link text-white">Projeto</a></li>
                     <li class="nav-item d-none d-md-block">
                         <a href="#contatos" class="nav-link text-white">Contatos</a></li>
+                        <li class="nav-item d-md-none d-sm-block">
+                            <a href="#contatosF" class="nav-link text-white">Contatos</a></li>
                 </ul>
                 <!-- Fim Lista dos itens da Navbar -->
             </div>
@@ -128,8 +130,8 @@
                 <div class="col-md-4">
                     <img src="img/compra.png" alt="#" class="img-fluid">
                     <h4>Fácil de Solicitar</h4>
-                    <p>Nossos serviços são solicitados de maneira fácil e prática. Estamos disponíveis para contato via Whatsapp e E-mail.</p>
-                    <button class="btn btn-body">Entre em Contato</button>
+                    <p>Nossos serviços são solicitados de maneira fácil e prática. Estamos disponíveis para contato via e-mail.</p>
+                    <a href="mailto:mickaelbpsouza@gmail.com" class="btn btn-body">Entre em Contato</a>
                 </div>
 
                 <div class="col-md-4">
@@ -141,7 +143,7 @@
                 <div class="col-md-4">
                     <img src="img/suporte.png" alt="#" class="img-fluid">
                     <h4>Suporte Amigo</h4>
-                    <p>Se você tiver dúvidas ou perguntas, nossa equipe de suporte ficará feliz em ajudar e esclarecer suas dúvidas, quanto aos preços,e quais trabalhos podemos realizar.</p>
+                    <p>Se você tiver dúvidas ou perguntas, nossa equipe de suporte ficará feliz em ajudar e esclarecer suas dúvidas, quanto aos preços, e quais trabalhos podemos realizar.</p>
                 </div>
 
             </div>
@@ -161,12 +163,12 @@
                         <a href="#contatos" class="pr-2 text-white">Contatos</a>
                     </p>
                 </div>
-                <div class="col-md-4 mt-3">
+                <div class="col-md-4 mt-3" id="contatosF">
                     <!-- Icones dos apps -->
                     <p>
-                        <a href="#" class="btn btn-footer"><i class="fa-brands fa-whatsapp"></i></a>
-                        <a href="#" class="btn btn-footer"><i class="fas fa-envelope"></i></a>
-                        <a href="#" class="btn btn-footer"><i class="fa-brands fa-linkedin"></i></a>
+                        <a class="btn btn-footer" href="#" data-toggle="modal" data-target="#contato3"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="#" data-toggle="modal" data-target="#contato4" class="btn btn-footer"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="mailto:mickaelbpsouza@gmail.com" class="btn btn-footer"><i class="fas fa-envelope"></i></a>
                     </p>
                     <!-- Fim Icones dos apps -->
                 </div>
@@ -227,6 +229,50 @@
                         <a href="https://web.whatsapp.com/send?phone=5511948778722" target="_blanck"><i class="fa-brands fa-whatsapp modal-icon"></i></a>
                         <a href="https://github.com/Guilherme-full" target="_blanck"><i class="fa-brands fa-github modal-icon" ></i></a>
                     </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-modal" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal WhatsApp DEVS -->
+    <div class="modal fade" id="contato3" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content modal-contents">
+                <div class="modal-header">
+                    <h5 class="modal-title text-white">Contatos dos Desenvolvedores</h5>
+                </div>
+                <div class="modal-body">
+
+                    <div class="text-center d-flex flex-column">
+                        <a href="https://web.whatsapp.com/send?phone=5511983845223" target="_blanck" class="text-white">WhatsApp Mickael Fernandes</a>
+                        <a href="https://web.whatsapp.com/send?phone=5511948778722" target="_blanck" class="text-white">WhatsApp Guilherme Xavier</a>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-modal" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Linkedin DEVS -->
+    <div class="modal fade" id="contato4" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content modal-contents">
+                <div class="modal-header">
+                    <h5 class="modal-title text-white">Contatos dos Desenvolvedores</h5>
+                </div>
+                <div class="modal-body">
+
+                    <div class="text-center d-flex flex-column">
+                        <a href="https://www.linkedin.com/in/mickael-fernandes-bispo-de-souza-8ab2b01b8/" target="_blanck" class="text-white">Linkedin Mickael Fernandes</a>
+                        <a href="https://www.linkedin.com/in/guilhermexav/" target="_blanck" class="text-white">Linkedin Guilherme Xavier</a>
+                    </div>
+
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-modal" data-dismiss="modal">Fechar</button>
