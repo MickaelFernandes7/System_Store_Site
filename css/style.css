@@ -17,7 +17,10 @@
             
             nav {
                 background-color: #f55145;
+                outline:none;
             }
+
+            .nav-link{outline: none;}
             
             .logo {
                 font-weight: 700;
@@ -28,12 +31,14 @@
             .btn-body {
                 background-color: #f55145;
                 color: #fff;
+                outline: none;
             }
             
             .btn-body:hover {
                 background-color: #e94236;
                 color: rgb(250, 242, 242);
                 transition: 0.75s;
+                outline: none;
             }
             
             .btn-footer {
@@ -100,6 +105,7 @@
             .contato-btn:hover {
                 background-color: #e5e5e5;
                 transition: 0.50s;
+                outline: none;
             }
             /* Caixa recursos */
             
@@ -121,6 +127,7 @@
             
             .modal-contents {
                 background-color: #f55145;
+                outline: none;
             }
             
             .modal-title {
@@ -143,10 +150,15 @@
                 border-radius: 7px;
             }
             
+            .modal-anchor{
+                outline:none;
+            }
+
             .modal-icon {
                 font-size: 27px;
                 margin-right: 2%;
                 color: #fff;
+                
             }
             
             .modal-icon:hover {
@@ -156,11 +168,13 @@
             .btn-modal {
                 background-color: #fff;
                 color: #f55145;
+                outline: none;
             }
             
             .btn-modal:hover {
                 background-color: #e5e5e5;
                 transition: 0.50s;
+                outline: none;
             }
 
             @media(min-width: 320px) and (max-width:374px) {
